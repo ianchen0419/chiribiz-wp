@@ -4,7 +4,7 @@
 	if(isset($_POST['code'])) {  
 		if($_POST['code'] == $_SESSION['code']){
 		    // データは再送信されようとします
-			header ('Location: http://localhost/chiribiz/contact-us');
+			header ('Location: http://localhost/chiribiz');
 			return;
 		}
 	}
