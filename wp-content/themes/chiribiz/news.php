@@ -19,8 +19,8 @@
 			<ul class="news-area mar_top40">
 				<?php
 					$args = array(
-					'posts_per_page' => -1, // 表示件数の指定
-					'category_name' => 'news' // カテゴリーの指定
+						'posts_per_page' => -1, // 表示件数の指定
+						'category_name' => 'news' // カテゴリーの指定
 					);
 					$posts = get_posts( $args );
 					foreach ( $posts as $post ): // ループの開始

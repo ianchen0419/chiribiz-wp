@@ -29,8 +29,9 @@
 					<a href="javascript:;">完了</a>
 				</li>
 			</ol>
-			<p class="mar_top40">この度はお問合せいただき、誠にありがとうございます。<br>必要な項目をご記入の上、「記入内容を確認」ボタンをクリックしてください。</p>
+			
 			<form action="<?php the_permalink(); ?>" class="contact-form" id="myForm" method="POST">
+				<p class="mar_top40">この度はお問合せいただき、誠にありがとうございます。<br>必要な項目をご記入の上、「記入内容を確認」ボタンをクリックしてください。</p>
 				<div class="contact-item">
 					<div class="title">貴社名</div>
 					<input type="text" name="your_company" />
@@ -51,14 +52,14 @@
 						<span>メールアドレス</span>
 						<span class="badge">必須</span>
 					</div>
-					<input type="email" name="your_email" required />
+					<input type="email" name="your_email" required oninput="setValid()" />
 				</div>
 				<div class="contact-item">
 					<div class="title">
 						<span>メールアドレス（確認用）</span>
 						<span class="badge">必須</span>
 					</div>
-					<input type="email" name="your_email_again" required />
+					<input type="email" name="your_email_again" required oninput="setValid()" />
 				</div>
 				<div class="contact-item">
 					<div class="title">
@@ -260,7 +261,7 @@
 
 					if($mailer_user->Send()){
 						if($mailer_admin->Send()){
-							echo '送信しました'; ?>
+							echo '<div class="mar_top40">この度はお問合せいただき、誠にありがとうございます。<br>内容確認の上、担当より追ってご連絡いたします。</div>'; ?>
 							<script>
 								myForm.hidden=true;
 								document.querySelector('.contact-path li.active').classList.remove('active');

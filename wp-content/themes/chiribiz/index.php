@@ -114,7 +114,10 @@
 				<h2 class="eng-title news">NEWS RELEASE</h2>
 			</div>
 			<ul class="news-area">
-				<?php while ( have_posts() ) : the_post();  ?>
+				<?php 
+					query_posts('cat=2');
+					while ( have_posts() ) : the_post();  
+				?>
 				<li class="news-item">
 					<div class="date"><?php the_time('Y.m.d') ?></div>
 					<div class="content">

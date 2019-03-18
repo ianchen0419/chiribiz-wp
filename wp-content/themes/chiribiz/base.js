@@ -37,6 +37,7 @@ function goTop(){
 }
 
 var inputs=document.querySelectorAll('#myForm input:not([type=submit]');
+var emails=document.querySelectorAll('#myForm input[type=email]');
 var textArea=document.querySelector('#myForm textarea');
 var stepPath=document.querySelectorAll('.contact-path li');
 
@@ -45,10 +46,21 @@ function resetStepPath(idx){
 	stepPath[idx].classList.add('active');
 }
 
+function setValid(){
+	if(emails[0].value !== emails[1].value){
+		emails[1].setCustomValidity('メールアドレスを確認してください');
+	}else{
+		emails[1].setCustomValidity('');
+	}
+}
+
 function goComfirm(th,e){
 	e.preventDefault();
 	myForm.reportValidity();
+	
 	if(myForm.checkValidity()==true){
+
+
 		th.parentNode.hidden=true;
 		comfirmButtons.hidden=false;
 		myForm.classList.add('in-comfirm');
