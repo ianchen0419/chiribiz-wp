@@ -1027,6 +1027,10 @@ body {
 	height: 250px;
 }
 
+.line-block.blue {
+	background: #eef4fe;
+}
+
 .line-block ul {
 	text-align: left;
 	margin-top: 20px;

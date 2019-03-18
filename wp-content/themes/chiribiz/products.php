@@ -57,7 +57,7 @@
 						</a>
 						<div class="badge gray">防災サービス</div>
 					</div>
-					<p>「対話型パーソナライズド動画」という新しい技術を活用して、立地によって異なる避難情報を各戸ごとに異なる内容の動画で読み聞かせ、災害リスクや避難情報の提供を行う地理情報システムです。ハザードマップの内容を十分に読み解くことが難しい一般の方でも、災害リスクを理解し、災害への正しい対応を促すことを目指します。</p>
+					<p>「対話型パーソナライズド動画」という新しい技術を活用して、立地によって異なる避難情報を各戸ごとに異なる内容の動画で読み聞かせ、災害リスクや避難情報の提供を行う次世代型のハザードマップです。ハザードマップの内容を十分に読み解くことが難しい一般の方でも、災害リスクを理解し、災害への正しい対応を促すことを目指します。</p>
 					<div class="right-button">
 						<a href="dogadehazard" class="blue-button">詳しくみる</a>
 					</div>
@@ -66,17 +66,17 @@
 			<div class="section mb-reverse">
 				<div class="section-content">
 					<div class="section-title">
-						<a href="miraishoken">
+						<a href="miraishoken/about">
 							<h2>未来商圏レポート</h2>
 						</a>
 						<div class="badge black">マーケティングレポート</div>
 					</div>
 					<p>過去に実施された国勢調査ではなく、5年後、10年後、20年後の将来推計人口に基づいた商圏レポートをオンラインで作成するサービスです。専用GISを導入することなく、オンラインで手軽にその場所の未来の立地評価レポートが入手できます。</p>
 					<div class="right-button">
-						<a href="miraishoken" class="blue-button">詳しくみる</a>
+						<a href="miraishoken/about" class="blue-button">詳しくみる</a>
 					</div>
 				</div>
-				<img src="<?php bloginfo('template_directory') ?>/inc/img/products/service02.png" alt="あさひる統計" />
+				<img src="<?php bloginfo('template_directory') ?>/inc/img/products/service02.png" alt="未来商圏レポート" />
 			</div>
 			<div class="gray no-mb">
 				<div class="section">
