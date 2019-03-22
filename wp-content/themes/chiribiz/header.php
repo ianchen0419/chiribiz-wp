@@ -44,7 +44,7 @@
 				</ul>
 			</nav>
 			<div class="report-area">
-				<a href="<?php bloginfo('url'); ?>/miraishoken/member" target="_blank">未来商圏レポート作成</a>
+				<a href="http://localhost/chiribiz/miraishoken/member" target="_blank">未来商圏レポート作成</a>
 			</div>
 			<!-- スマホ版 -->
 			<label class="mobile-menu-bar">
@@ -59,7 +59,7 @@
 		<nav id="mobileMenu">
 			<ul>
 				<li>
-					<a href="<?php bloginfo('url'); ?>/miraishoken/member" class="report-button" target="_blank">
+					<a href="http://localhost/chiribiz/miraishoken/member" class="report-button" target="_blank">
 						<span>未来商圏レポート作成</span>	
 						<i class="fa fa-angle-right fa-fw"></i>
 					</a>
