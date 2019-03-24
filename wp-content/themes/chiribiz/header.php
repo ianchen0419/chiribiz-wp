@@ -44,7 +44,7 @@
 				</ul>
 			</nav>
 			<div class="report-area">
-				<a href="http://localhost/chiribiz/miraishoken/member" target="_blank">未来商圏レポート作成</a>
+				<a href="javascript:;" target="_blank">未来商圏レポート作成</a>
 			</div>
 			<!-- スマホ版 -->
 			<label class="mobile-menu-bar">
@@ -59,7 +59,7 @@
 		<nav id="mobileMenu">
 			<ul>
 				<li>
-					<a href="http://localhost/chiribiz/miraishoken/member" class="report-button" target="_blank">
+					<a href="javascript:;" target="_blank" class="report-button">
 						<span>未来商圏レポート作成</span>	
 						<i class="fa fa-angle-right fa-fw"></i>
 					</a>

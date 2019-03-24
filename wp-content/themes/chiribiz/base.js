@@ -11,6 +11,8 @@ function menuHighlight(){
 		menuList[2].classList.add('active');
 	}else if(nowPath==='blog'){
 		menuList[3].classList.add('active');
+	}else if(nowPath==='contact-us'){
+		menuList[4].classList.add('active');
 	}
 }
 menuHighlight();

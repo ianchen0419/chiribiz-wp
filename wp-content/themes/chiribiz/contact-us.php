@@ -207,7 +207,7 @@
 					$mailer_user->SMTPDebug  = 1;
 					$mailer_user->Encoding = "base64";
 					$mailer_user->IsHTML(true);   
-					$mailer_user->FromName = "株式会社楽しいチリビジ";  
+					$mailer_user->setFrom($mailUsername, '株式会社楽しいチリビジ');
 					$mailer_user->Subject = $mailSubject_user; 
 					$mailer_user->Body = 
 						$company.'株式会社'."<br>".
@@ -241,7 +241,7 @@
 					$mailer_admin->Encoding = "base64";
 					$mailer_admin->IsHTML(true); 
 					$mailer_admin->AddReplyTo($mail);
-					$mailer_admin->FromName = "株式会社楽しいチリビジ";  
+					$mailer_admin->setFrom($mail, $name); 
 					$mailer_admin->Subject = $mailSubject_admin; 
 					$mailer_admin->Body = 
 						'担当各位'."<br><br>".
