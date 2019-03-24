@@ -115,8 +115,13 @@
 			</div>
 			<ul class="news-area">
 				<?php 
-					query_posts('cat=2');
-					while ( have_posts() ) : the_post();  
+					$args = array(
+						'posts_per_page' => 6, // 表示件数の指定
+						'category_name' => 'news' // カテゴリーの指定
+					);
+					$posts = get_posts( $args );
+					foreach ( $posts as $post ): // ループの開始
+					setup_postdata( $post ); // 記事データの取得 
 				?>
 				<li class="news-item">
 					<div class="date"><?php the_time('Y.m.d') ?></div>
@@ -127,7 +132,10 @@
 						</a>
 					</div>
 				</li>
-				<?php endwhile; ?>
+				<?php 
+					endforeach; // ループの終了
+					wp_reset_postdata(); // 直前のクエリを復元する
+				?>
 			</ul>
 			<div class="right-button">
 				<a href="news" class="news-button">
