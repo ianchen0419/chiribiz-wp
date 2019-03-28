@@ -79,43 +79,43 @@ php /* Template Name: sitemap */ ?>
 							</a>
 						</li>
 						<li>
-							<a href="miraishoken">
+							<a href="javascript:;">
 								<i class="fa fa-caret-right fa-fw"></i>
 								<span>未来商圏レポート</span>
 							</a>
 							<ul class="sitemap-subcontent pad_lt20">
 								<li>
-									<a href="miraishoken/about">
+									<a href="javascript:;">
 										<i class="fa fa-minus fa-fw"></i>
 										<span>未来商圏とは</span>
 									</a>
 								</li>
 								<li>
-									<a href="miraishoken/faq">
+									<a href="javascript:;">
 										<i class="fa fa-minus fa-fw"></i>
 										<span>未来商圏レポートFAQ</span>
 									</a>
 								</li>
 								<li>
-									<a href="miraishoken/member">
+									<a href="javascript:;">
 										<i class="fa fa-minus fa-fw"></i>
 										<span>未来商圏レポート作成</span>
 									</a>
 								</li>
 								<li>
-									<a href="miraishoken/terms">
+									<a href="javascript:;">
 										<i class="fa fa-minus fa-fw"></i>
 										<span>未来商圏レポート利用規約</span>
 									</a>
 								</li>
 								<li>
-									<a href="miraishoken/act-terms">
+									<a href="javascript:;">
 										<i class="fa fa-minus fa-fw"></i>
 										<span>未来統計向けACT距離計算サービス利用規約</span>
 									</a>
 								</li>
 								<li>
-									<a href="miraishoken/privacy-policy">
+									<a href="javascript:;">
 										<i class="fa fa-minus fa-fw"></i>
 										<span>プライバシーポリシー</span>
 									</a>
