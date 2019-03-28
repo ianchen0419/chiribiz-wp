@@ -16,7 +16,7 @@
 					<a href="member">レポート作成</a>
 				</li>
 			</ol>
-			<iframe src="http://211.9.57.20/chiribiz/miraishoken/member/" width="980px" height="600px" seamless="seamless" scrolling="no" frameborder="no" class="report-iframe"></iframe>
+			<iframe src="https://map.vertexsys.co.jp/chiribiz/miraishoken/member/" width="980px" height="600px" seamless="seamless" scrolling="no" frameborder="no" class="report-iframe"></iframe>
 		</div>
 
 	</main>
