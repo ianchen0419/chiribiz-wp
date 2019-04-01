@@ -1733,6 +1733,7 @@ body {
 	body.menu-open #visual,
 	body.menu-open #footer {
 		height: 0;
+		min-height: 0;
 		overflow: hidden;
 	}
 
@@ -2377,6 +2378,15 @@ body {
 	.report-img {
 		margin: 20px 0;
 	}
+
+	.single-news-content-area figure {
+		margin: 10px 0;
+	}
+
+	
+	.single-news-content-area img {
+		height: auto;
+	}	
 }
 
 @-webkit-keyframes show {
