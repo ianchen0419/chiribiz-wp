@@ -1,4 +1,4 @@
-php /* Template Name: sitemap */ ?>
+<?php /* Template Name: sitemap */ ?>
 <?php get_header();?>
 	<div id="visual">
 		<div class="blue-title">
