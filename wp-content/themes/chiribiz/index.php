@@ -92,7 +92,7 @@
 					<div class="badge">
 						<span>マーケティングレポート</span>
 					</div>
-					<a href="javascript:;">
+					<a href="miraishoken">
 						<div class="product-block">
 							<div class="block-title">
 								<h3>未来商圏<br>レポート</h3>
