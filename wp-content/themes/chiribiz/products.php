@@ -66,14 +66,14 @@
 			<div class="section mb-reverse">
 				<div class="section-content">
 					<div class="section-title">
-						<a href="miraishoken">
+						<a href="miraishoken/about">
 							<h2>未来商圏レポート</h2>
 						</a>
 						<div class="badge black">マーケティングレポート</div>
 					</div>
 					<p>過去に実施された国勢調査ではなく、5年後、10年後、20年後の将来推計人口に基づいた商圏レポートをオンラインで作成するサービスです。専用GISを導入することなく、オンラインで手軽にその場所の未来の立地評価レポートが入手できます。</p>
 					<div class="right-button">
-						<a href="miraishoken" class="blue-button">詳しくみる</a>
+						<a href="miraishoken/about" class="blue-button">詳しくみる</a>
 					</div>
 				</div>
 				<img src="<?php bloginfo('template_directory') ?>/inc/img/products/service02.png" alt="未来商圏レポート" />

@@ -16,7 +16,7 @@
 							<a href="<?php bloginfo('url'); ?>/dogadehazard">動画で理解！わが家のハザードマップ</a>
 						</li>
 						<li>
-							<a href="<?php bloginfo('url'); ?>/miraishoken">未来商圏レポート</a>
+							<a href="<?php bloginfo('url'); ?>/miraishoken/about">未来商圏レポート</a>
 						</li>
 						<li>
 							<a href="<?php bloginfo('url'); ?>/location-passport">Location Passport</a>
