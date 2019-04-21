@@ -3,8 +3,13 @@
 	<div id="visual">
 		<img src="<?php bloginfo('template_directory') ?>/inc/img/products/miraishoken-top.jpg" class="mb-hide" alt="未来商圏レポート" width="100%" />
 		<div class="miraishoken-title">
-			<h1>未来商圏レポート</h1>
-			<p>5年後、10年後、20年後の人口予測に基づく<br>商圏レポートをオンライン作成</p>
+			<div class="blue-area">
+				<h1>未来商圏レポート</h1>
+				<p>5年後、10年後、20年後の人口予測に基づく<br>商圏レポートをオンライン作成</p>
+			</div>
+			<div class="red-area">
+				<p>レポート3枚まで、無料トライアル提供中！</p>
+			</div>
 		</div>
 	</div>
 	<main id="contact">

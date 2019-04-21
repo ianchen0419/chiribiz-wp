@@ -1046,11 +1046,27 @@ body {
 .miraishoken-title {
 	position: absolute;
     top: 50%;
-    background: linear-gradient(to right, #1a6187, #00BCD4);
     transform: translateY(-50%);
-    opacity: 0.8;
+    
     width: 800px;
     text-align: center;
+}
+
+.miraishoken-title .blue-area {
+	background: linear-gradient(to right, #1a6187, #00BCD4);
+	padding: 1px 0;
+	opacity: 0.8;
+	padding: 20px 0;
+}
+
+.miraishoken-title .red-area {
+	background: linear-gradient(to right, hsla(358, 66%, 45%, 0.5), hsla(5, 80%, 58%, 0.6));
+	padding: 10px 0;
+}
+
+.miraishoken-title .red-area p {
+	margin: 0;
+	font-weight: bold;
 }
 
 .miraishoken-title h1 {
@@ -2166,7 +2182,6 @@ body {
 		transform: none;
 	    display: block;
 	    width: 100%;
-	    padding: 30px 10px;
 	    box-sizing: border-box;
 	}
 
