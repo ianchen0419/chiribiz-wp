@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:700" />
 	<link rel="stylesheet prefetch" href="<?php bloginfo('template_directory') ?>/inc/lib/font-awesome/css/font-awesome.min.css" />
 	<link rel="stylesheet prefetch" href="<?php bloginfo('template_directory') ?>/style.css" />
+	<script src="https://www.google.com/recaptcha/api.js?render=6Lfl-NQUAAAAAIcb79icrUbSeyKHGcA47a6LuwgB"></script>
 </head>
 
 <body>
